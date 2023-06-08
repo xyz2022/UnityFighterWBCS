@@ -10,6 +10,7 @@ public class AnimationController : StateMachineBehaviour
         animator.SetBool("pressedRP", false);
         animator.SetBool("pressedLK", false);
         animator.SetBool("pressedRK", false);
+        //animator.SetBool("pressedLeft", false);
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

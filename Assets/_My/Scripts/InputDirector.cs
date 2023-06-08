@@ -44,6 +44,14 @@ public class InputDirector : MonoBehaviour
         {
             animator.SetBool("pressedRK", true);
         }
+        if (Input.GetKeyDown(keyLeft))
+        {
+            animator.SetBool("pressedLeft", true);
+        }
+        if (Input.GetKeyUp(keyLeft))
+        {
+            animator.SetBool("pressedLeft", false);
+        }
     }
 
 
