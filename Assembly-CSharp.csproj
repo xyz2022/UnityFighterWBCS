@@ -69,6 +69,7 @@
     <Compile Include="Assets\RFA\Common\Scripts\AimingController.cs" />
     <Compile Include="Assets\_My\Scripts\InputDirector.cs" />
     <Compile Include="Assets\RFA\Common\Scripts\Aiming.cs" />
+    <Compile Include="Assets\_My\Scripts\RootMotionScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\RFA\Readme.txt" />

@@ -52,6 +52,27 @@ public class InputDirector : MonoBehaviour
         {
             animator.SetBool("pressedLeft", false);
         }
+        if (Input.GetKeyDown(keyRight))
+        {
+            animator.SetBool("pressedRight", true);
+        }
+        if (Input.GetKeyUp(keyRight))
+        {
+            animator.SetBool("pressedRight", false);
+        }
+        //if(Input.GetKey(keyRight))
+       // {
+       //     if (animator.GetCurrentAnimatorStateInfo(0).tagHash == Animator.StringToHash("WalkBack"))
+       //     {
+       //         //gameObject.transform.position += Time.deltaTime * 5 * Vector3.left;           
+       //     }
+       // }
+        //if(animator.GetBool("isWalkBack"))
+       // {
+       //     Vector3 newPosition = transform.position;
+       //     newPosition.x += animator.GetFloat("WalkBackSpeed") * Time.deltaTime;
+       //     transform.position = newPosition;
+       // }
     }
 
 
