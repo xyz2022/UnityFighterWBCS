@@ -60,19 +60,27 @@ public class InputDirector : MonoBehaviour
         {
             animator.SetBool("pressedRight", false);
         }
+        if (Input.GetKeyDown(keyUp))
+        {
+            animator.SetBool("pressedUP", true);
+        }
+        if (Input.GetKeyUp(keyUp))
+        {
+            animator.SetBool("pressedUP", false);
+        }
         //if(Input.GetKey(keyRight))
-       // {
-       //     if (animator.GetCurrentAnimatorStateInfo(0).tagHash == Animator.StringToHash("WalkBack"))
-       //     {
-       //         //gameObject.transform.position += Time.deltaTime * 5 * Vector3.left;           
-       //     }
-       // }
+        // {
+        //     if (animator.GetCurrentAnimatorStateInfo(0).tagHash == Animator.StringToHash("WalkBack"))
+        //     {
+        //         //gameObject.transform.position += Time.deltaTime * 5 * Vector3.left;           
+        //     }
+        // }
         //if(animator.GetBool("isWalkBack"))
-       // {
-       //     Vector3 newPosition = transform.position;
-       //     newPosition.x += animator.GetFloat("WalkBackSpeed") * Time.deltaTime;
-       //     transform.position = newPosition;
-       // }
+        // {
+        //     Vector3 newPosition = transform.position;
+        //     newPosition.x += animator.GetFloat("WalkBackSpeed") * Time.deltaTime;
+        //     transform.position = newPosition;
+        // }
     }
 
 

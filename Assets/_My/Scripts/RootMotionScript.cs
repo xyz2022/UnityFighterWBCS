@@ -6,10 +6,14 @@ using System.Collections;
 public class RootMotionScript : MonoBehaviour
 {
     Animator animator;
+    public float ySpeed;
+    float xSpeed;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        ySpeed = 0;
+        xSpeed = 0;
     }
 
     void Update()
@@ -19,8 +23,22 @@ public class RootMotionScript : MonoBehaviour
         if (animator)
         {
             Vector3 newPosition = transform.position;
-            newPosition.x += animator.GetFloat("WalkBackSpeed") * Time.deltaTime;
-            newPosition.x += animator.GetFloat("WalkForwardSpeed") * Time.deltaTime;
+            xSpeed = animator.GetFloat("WalkBackSpeed") + animator.GetFloat("WalkForwardSpeed");
+            newPosition.x += xSpeed * Time.deltaTime;
+            float getY = animator.GetFloat("yForce");
+            if (getY != 0)
+            {
+                ySpeed = getY;
+                animator.SetFloat("yForce", 0);
+            }
+            ySpeed -= 0.0981f * Time.deltaTime;
+            newPosition.y += ySpeed;
+            if (newPosition.y < 0)
+            {
+                newPosition.y = 0;
+                ySpeed = 0;
+            }
+            
             transform.position = newPosition;
         }
     }

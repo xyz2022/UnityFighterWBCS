@@ -20,6 +20,8 @@ public class AnimationController : StateMachineBehaviour
             animator.SetFloat("WalkBackSpeed", walkBackSpeed);
         if (stateInfo.IsName("base.WalkForward"))
             animator.SetFloat("WalkForwardSpeed", walkForwardSpeed);
+        if (stateInfo.IsName("base.Jump"))
+            animator.SetFloat("yForce", .03f);
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -37,6 +39,7 @@ public class AnimationController : StateMachineBehaviour
             animator.SetBool("pressedLK", false);
         if (stateInfo.IsName("base.rk"))
             animator.SetBool("pressedRK", false);
+        
 
 
     }
