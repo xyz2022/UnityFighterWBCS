@@ -30,6 +30,7 @@ public class RootMotionScript : MonoBehaviour
             {
                 ySpeed = getY;
                 animator.SetFloat("yForce", 0);
+                animator.SetBool("isGrounded", false);
             }
             ySpeed -= 0.0981f * Time.deltaTime;
             newPosition.y += ySpeed;
@@ -37,6 +38,7 @@ public class RootMotionScript : MonoBehaviour
             {
                 newPosition.y = 0;
                 ySpeed = 0;
+                animator.SetBool("isGrounded", true);
             }
             
             transform.position = newPosition;
