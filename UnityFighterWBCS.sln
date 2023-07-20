@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.spring
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.springbone", "com.unity.animations.springbone.csproj", "{35288639-2D39-3E68-4906-3BC6A54AACB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{0EFD1C73-76DF-92CC-43A4-5F5032EB15BA}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6E2944B0-AC1D-5A84-E86F-0AF682E11045}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.springbone.editor", "com.unity.animations.springbone.editor.Player.csproj", "{AA91D4E3-72C4-77E3-0089-A38044FC9916}"
@@ -27,6 +29,10 @@ Global
 		{35288639-2D39-3E68-4906-3BC6A54AACB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35288639-2D39-3E68-4906-3BC6A54AACB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35288639-2D39-3E68-4906-3BC6A54AACB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFD1C73-76DF-92CC-43A4-5F5032EB15BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFD1C73-76DF-92CC-43A4-5F5032EB15BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFD1C73-76DF-92CC-43A4-5F5032EB15BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFD1C73-76DF-92CC-43A4-5F5032EB15BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E2944B0-AC1D-5A84-E86F-0AF682E11045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E2944B0-AC1D-5A84-E86F-0AF682E11045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E2944B0-AC1D-5A84-E86F-0AF682E11045}.Release|Any CPU.ActiveCfg = Release|Any CPU

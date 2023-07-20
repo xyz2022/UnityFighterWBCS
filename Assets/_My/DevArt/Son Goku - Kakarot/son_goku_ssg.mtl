@@ -1,0 +1,110 @@
+# Blender MTL File: 'None'
+# Material Count: 9
+
+newmtl Model001_Material001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\goku_n.png
+map_Kd C:\\Users\\ra\\Desktop\\dragon_ball_fighterz___son_goku_3d__alo__fbx_obj_by_higuys920_de2ida6\\Son Goku\\gokussg_d.png
+
+newmtl Model001_Material002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\goku_n.png
+map_Kd C:\\Users\\ra\\Documents\\models_characters\\gokussgss_d.png
+
+newmtl Model001_Material003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\goku_n.png
+map_Kd C:\\Users\\ra\\Desktop\\dragon_ball_fighterz___son_goku_3d__alo__fbx_obj_by_higuys920_de2ida6\\Son Goku\\gokussg_d.png
+
+newmtl Model001_Material004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\goku_n.png
+map_Kd C:\\Users\\ra\\Documents\\models_characters\\gokussgss_d.png
+
+newmtl Model001_Material005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\goku_n.png
+map_Kd C:\\Users\\ra\\Desktop\\dragon_ball_fighterz___son_goku_3d__alo__fbx_obj_by_higuys920_de2ida6\\Son Goku\\gokussg_d.png
+
+newmtl Model001_Material006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\goku_n.png
+map_Kd C:\\Users\\ra\\Desktop\\dragon_ball_fighterz___son_goku_3d__alo__fbx_obj_by_higuys920_de2ida6\\Son Goku\\gokussg_d.png
+
+newmtl Model001_Material007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\__default_flat_normal.png
+map_Kd C:\\Users\\ra\\Documents\\models_characters\\gokussj_detail.png
+
+newmtl Model001_Material008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\__default_flat_normal.png
+map_Kd C:\\Users\\ra\\Documents\\models_characters\\goku_decal.png
+
+newmtl Model001_Material009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\ra\\Documents\\models_characters\\__default_flat_normal.png
+map_Kd C:\\Users\\ra\\Documents\\models_characters\\GKS_decal.png
